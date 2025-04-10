@@ -10,6 +10,81 @@
     <link rel="stylesheet" href="./assets/css/estilos.css">
 </head>
 <body>
-    
+    <!-- Encabezado Principal -->
+    <header>
+    <h1>Pasatiempos en línea</h1>
+    </header>
+
+   <!-- Imagen Portada -->
+    <section id="encabezado">
+        <img src="./assets/img/portada.png" alt="Foto de portada" width="500" class="foto portada">
+    </section>
+
+     <!-- Menú de Navegación -->
+    <nav id="menu-principal" class="main-nav">
+        <ul>
+            <li><a href="#sobre_mi">Sobre mi</a></li>
+            <li><a href="#favoritos">Pasatiempos favoritos</a></li>
+            <li><a href="#galeria">Galería</a></li>
+            <li><a href="#recomendaciones">Recomendaciones</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- Contenido -->
+     <main>
+        <section id="sobre_mi">
+            <h2>Sobre mi</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum corporis hic voluptatem minima quos harum id ratione quidem. Quisquam autem corporis temporibus nemo eaque beatae delectus excepturi voluptates quam rem.</p>
+        </section>
+
+        <section id="favoritos">
+            <h2>Favoritos</h2>
+            <ol>
+                <li><p>Pasatiempo 1</p></li>
+                <li><p>Pasatiempo 2</p></li>
+                <li><p>Pasatiempo 3</p></li>
+                <li><p>Pasatiempo 4</p></li>
+                <li><p>Pasatiempo 5</p></li>
+            </ol>
+        </section>
+
+        <section id="galeria">
+            <h2>Galería</h2>
+            <ul>
+                <li><img src="./assets/img/pintura.png" alt="pasatiempo pintura" width="200" class="imagen pasatiempo"></li>
+                <li><img src="./assets/img/lectura.png" alt="pasatiempo lectura" width="200" class="imagen pasatiempo"></li>
+                <li><img src="./assets/img/puzzle.png" alt="pasatiempo puzzle" width="200" class="imagen pasatiempo"></li>
+            </ul>  
+        </section>
+
+        <section id="recomendaciones">
+            <h2>Recomendaciones</h2>
+            <ul>
+                <li><p>Recomendacion 1</p></li>
+                <li><p>Recomendacion 2</p></li>
+                <li><p>Recomendacion 3</p></li>
+                <li><p>Recomendacion 4</p></li>
+            </ul>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+              <form action="#" method="post">
+                <label for="email">Correo electrónico:</label><br>
+                <input type="email" id="email" name="email" placeholder="tucorreo@ejemplo.com" required>
+                <br><br>
+                <input type="submit" value="Enviar">
+              </form>
+
+        </section>
+     </main>
+
+    <!-- Footer -->
+     <footer>
+        <p>&copy; 2025 I Araya. Todos los derechos reservados</p>
+     </footer>
+
+
 </body>
 </html>
