@@ -1,0 +1,142 @@
+/* ==== Reset básico ==== */
+* {
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+
+/* --- Estilos Generales --- */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(4, 58, 40);
+    background-color: rgb(156, 247, 217);
+    line-height: 1.5;
+    padding: 20px;
+}
+
+/* --- Encabezado Principal --- */
+header {
+    background-color: #0f2a07;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* --- Imagen Portada --- */
+#encabezado img {
+    display: block;
+    margin: 0 auto 15px;
+    border-radius: 8px; 
+}
+
+/* --- Menú Navegación --- */
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #bfd9be;
+    padding: 10px;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #162112;
+    font-weight: bold;
+    padding: 8px 12px;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    color: #089f05;
+    text-decoration: underline;
+    border-radius: 4px;
+}
+
+html {
+    scroll-padding-top: 70px;
+  }
+
+/* --- Secciones Generales --- */
+    /* --- Seccion Sobre mi --- */
+#sobre_mi {
+    background-color: #54e892;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 8px;
+    max-width: 800px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05)
+}
+
+#sobre_mi p {
+    text-align: justify;
+}
+
+#sobre_mi h2 {
+    border-bottom: 2px solid #007B33;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+    /* --- Sección Favoritos --- */
+#favoritos {
+    background-color: #0f2a07;
+    color: #bfd9be;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 900px;
+    transition: transform 0.3s ease;
+}
+
+#favoritos h2 {
+    border-bottom: 2px solid #759e86;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+#favoritos ol {
+    padding: 0;
+    margin: 0;
+    list-style-type: decimal;  
+    font-size: 1.2em;  
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    list-style: none;
+    justify-content: center;
+
+}
+
+#favoritos li {
+    background-color: #bfd9be;
+    color: #162112;
+    padding: 15px 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+    font-size: 1.1em;
+    font-weight: 500;
+    width: 200px;
+    transition: transform 0.3s ease;
+    text-align: center;
+}
+
+#favoritos:hover {
+    transform: scale(1.02);
+  }
+
+  #favoritos li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+  }
